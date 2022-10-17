@@ -55,3 +55,14 @@ A lambda expression evaluates to a function that has a single return expression 
 
         lambda            x            :          f(g(x))
     "A function that    takes x    and returns     f(g(x))"
+
+### First class elements
+
+Some of the "rights and privileges" of first-class elements are:
+
+1. They may be bound to names.
+2. They may be passed as arguments to functions.
+3. They may be returned as the results of functions.
+3. They may be included in data structures.
+
+Python awards functions full first-class status, and the resulting gain in expressive power is enormous.
