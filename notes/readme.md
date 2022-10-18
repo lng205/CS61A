@@ -73,4 +73,8 @@ The sum of digits have same remainder mod 3:
 
 $$10^k \equiv 1\mod 3$$
 
-Iteration is a special case of recursion. 
+Iteration is a special case of recursion.
+
+When a recursive procedure is divided among two functions that call each other, the functions are said to be mutually recursive.(eg. is_even, pebbles(keep the remaining to be multiple of 3))
+
+A function with multiple recursive calls is said to be **tree recursive**(eg. fib, partitions).
